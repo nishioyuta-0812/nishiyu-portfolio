@@ -2,6 +2,7 @@
   import Footer from "$lib/view/components/molecules/Footer.svelte";
   import Header from "$lib/view/components/molecules/Header.svelte";
   import "../app.scss";
+  import "github-markdown-css";
 </script>
 
 <main>

@@ -10,7 +10,7 @@
     console.log( await res.json);
     return {
         props: {
-          id: await res.json()
+          article: await res.json()
         }
     };
   }
@@ -18,27 +18,24 @@
 </script>
 
 <script lang="ts">
+  import type { Article } from '$lib/view/state/articleState';
   import SvelteMarkdown from "svelte-markdown";
   import { MetaTags } from 'svelte-meta-tags';
 
-  export let id: string;
-  export let source: string;
-  export let title: string;
-  export let updateDate: string;
-  export let image: string;
+  export let article: Article;
 
 </script>
 
 
 <MetaTags
-  title={title}
+  title={article.title}
   openGraph={{
-    url: `https://nishiyu.net/articles/${id}`,
-    title: title,
-    description: source,
+    url: `https://nishiyu.net/articles/${article.id}`,
+    title: article.title,
+    description: article.contents,
     images: [
       {
-        url: `https:${image}`,
+        url: `https:${article.thumbnail}`,
         width: 800,
         height: 600,
         alt: 'Og Image Alt'
@@ -50,9 +47,9 @@
     handle: '@yutakun_27',
     site: '@yutakun_27',
     cardType: 'summary_large_image',
-    title: title,
-    description: source,
-    image: `https:${image}`,
+    title: article.title,
+    description: article.contents,
+    image: `https:${article.thumbnail}`,
     imageAlt: 'Twitter image alt yutakun blog'
   }}
 >
@@ -61,13 +58,13 @@
 <section>
   <div class="article-container">
     <div class="article-title">
-      <h1>{title}</h1>
+      <h1>{article.title}</h1>
     </div>
     <div class="update-date">
-      <p>更新日: {updateDate}</p>
+      <p>更新日: {article.updateDate}</p>
     </div>
     <div class="article-body markdown-body">
-      <SvelteMarkdown {source} ></SvelteMarkdown>
+      <SvelteMarkdown source={article.contents} ></SvelteMarkdown>
     </div>
   </div>
 </section>

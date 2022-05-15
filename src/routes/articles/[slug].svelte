@@ -3,6 +3,7 @@
 
   export const load: Load = async ({ params, fetch }) => {
     console.log(params);
+    console.log(fetch);
 
     const url = `/api/articles/${params.slug}.json`;
     let res = await fetch(url);

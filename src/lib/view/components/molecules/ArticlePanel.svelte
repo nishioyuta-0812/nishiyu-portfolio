@@ -7,7 +7,7 @@ import { base } from '$app/paths';
 </script>
 
 
-<a sveltekit:prefetch href={`${base}/articles/${article.id}`} class="panel">
+<a href={`${base}/articles/${article.id}`} class="panel">
   
   <div class="thumbnail" style="background-image: url({article.thumbnail});">
 

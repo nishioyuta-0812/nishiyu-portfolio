@@ -1,0 +1,18 @@
+@import '@fontsource/fira-mono';
+@import 'reset';
+
+html {
+  height: 100%;
+}
+
+body {
+  // background-color: rgb(255, 255, 255);
+  color: black;
+  height: 100%;
+  // background-image: url(/PAK76_aoihikarito620150218192510.jpg);
+  // background-size: cover;
+  background-color: rgb(255, 253, 248);
+  #app {
+    height: 100%;
+  }
+}

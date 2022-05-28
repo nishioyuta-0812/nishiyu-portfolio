@@ -34,7 +34,8 @@
 
 <style lang="scss">
   section {
-    height: 60%;
+    animation: 2s fadeIn;
+    height: 500px;
     margin: 0 auto;
     width: 1100px;
     margin-bottom: 150px;
@@ -56,5 +57,10 @@
 
   .sns {
     height: 100%;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
 </style>

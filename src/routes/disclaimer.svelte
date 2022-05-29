@@ -12,6 +12,7 @@
 
 <style lang="scss">
   section {
+    padding-top: 50px;
     width: 1100px;
     margin: 0 auto;
   }

@@ -43,12 +43,13 @@
   title={"Nishiyu Portfolio"}>
 </MetaTags>
 
-
-<section>
-  <div class="top">
-    <SelfIntroduction></SelfIntroduction>
-  </div>
-</section>
+<div class="top-container">
+  <section>
+    <div class="top">
+      <SelfIntroduction></SelfIntroduction>
+    </div>
+  </section>
+</div>
 <section class="blog">
   <SectionTitle text="Blog"></SectionTitle>
   <SectionExplanation text="最近のブログです"></SectionExplanation>
@@ -64,11 +65,19 @@
 </section>
 
 <style lang="scss">
+
+  .top-container {
+    animation: 2s fadeIn;
+    background-image: url("/wallpaperbetter.com.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   section {
     animation: 2s fadeIn;
     margin: 0 auto;
     width: 1100px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 
     .items {
       width: 100%;
@@ -81,8 +90,9 @@
   }
 
   .top {
+    color: #fff;
     display: flex;
-    height: 500px;
+    height: 600px;
   }
 
   .sns {

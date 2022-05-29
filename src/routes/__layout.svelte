@@ -17,7 +17,7 @@
   main {
     height: 100%;
     .content {
-      padding-top: 10%;
+      padding-top: 90px;
       margin-bottom: 10%;
     }
   }

@@ -38,6 +38,7 @@
 
 <style lang="scss">
   section {
+    padding-top: 50px;
     height: 70%;
     margin: 0 auto;
     width: 1100px;

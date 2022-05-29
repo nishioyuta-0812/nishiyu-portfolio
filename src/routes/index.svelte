@@ -68,9 +68,6 @@
 
   .top-container {
     animation: 2s fadeIn;
-    background-image: url("/wallpaperbetter.com.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   section {
@@ -90,7 +87,6 @@
   }
 
   .top {
-    color: #fff;
     display: flex;
     height: 600px;
   }

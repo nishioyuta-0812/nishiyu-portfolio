@@ -17,6 +17,7 @@
 <style lang="scss">
 
   .header {
+    z-index: 9999;
     height: 90px;
     width: 100%;
     display: flex;

@@ -16,7 +16,7 @@
     return {
       status: res.status,
       error: new Error('Failed to fetch posts')
-    }; 
+    };
   };
 </script>
 

@@ -67,11 +67,11 @@
 <style lang="scss">
 
   .top-container {
-    animation: 2s fadeIn;
+    animation: 3s fadeIn;
   }
 
   section {
-    animation: 2s fadeIn;
+    animation: 3s fadeIn;
     margin: 0 auto;
     width: 1100px;
     margin-bottom: 100px;

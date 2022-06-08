@@ -64,5 +64,32 @@ import { base } from '$app/paths';
 
   .panel:hover {
       box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px -6px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  @media screen and (max-width: 480px) {
+    .panel {
+      width: 50%;
+      margin: 40px auto;
+
+      .thumbnail {
+        height: 300px;
+      }
+
+      .article-meta {
+        height: 100px;
+
+        .title {
+          font-size: 30px;
+        }
+
+        .update-date {
+          font-size: 20px;
+        }
+      }
     }
+
+    .panel:nth-of-type(4n) {
+      margin-right: auto;
+    }
+  }
 </style>

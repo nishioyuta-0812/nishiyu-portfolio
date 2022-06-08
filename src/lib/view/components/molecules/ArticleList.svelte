@@ -19,4 +19,12 @@ import ArticlePanel from "./ArticlePanel.svelte";
     max-width: 1100px;
     margin: 0 auto;
   }
+
+  @media screen and (max-width: 480px) {
+    .article-list {
+      width: 100%;
+      display: block;
+      align-items: center;
+    }
+  }
 </style>

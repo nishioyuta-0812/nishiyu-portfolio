@@ -112,4 +112,21 @@
     
   }
 
+  @media screen and (max-width: 480px) {
+    .article-container {
+
+      .article-title {
+        font-size: 40px;
+      }
+
+      .update-date {
+        font-size: 20px;
+      }
+
+      .markdown-body {
+        font-size: 30px;
+      }
+    }
+  }
+
 </style>

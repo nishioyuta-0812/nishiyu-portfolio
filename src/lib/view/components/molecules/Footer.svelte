@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer">
   <ul>
     <li><a href="/privacyPolicy">プライバシーポリシー</a></li>
     <li><a href="/disclaimer">免責事項</a></li>
@@ -18,6 +18,12 @@
       li {
         margin-right: 20px;
       }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .footer {
+      width: 100%;
     }
   }
 </style>

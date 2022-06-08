@@ -59,5 +59,27 @@
     }
   }
 
+  @media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .header {
+      padding: 0 20px;
+      z-index: 9999;
+      height: 90px;
+      width: 100%;
+      display: flex;
+      background-color: white;
+      box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.107);
+      font-size: 25px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      font-family: cursive;
+
+      .right-item {
+        
+      }
+    }
+  }
+
 
 </style>

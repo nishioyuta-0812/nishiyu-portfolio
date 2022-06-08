@@ -121,6 +121,7 @@
       
         background-color: #fff;
         width: 90%;
+        padding: 30px;
 
         .article-title {
           font-size: 15px;
@@ -131,7 +132,7 @@
         }
 
         .markdown-body {
-          font-size: 10px;
+          font-size: 12px;
         }
       }
     }

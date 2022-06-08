@@ -64,19 +64,32 @@
     .header {
       padding: 0 20px;
       z-index: 9999;
-      height: 90px;
+      height: 50px;
       width: 100%;
       display: flex;
       background-color: white;
       box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.107);
-      font-size: 25px;
       position: fixed;
       top: 0;
       left: 0;
       font-family: cursive;
 
-      .right-item {
-        
+      nav {
+        .left-item {
+          font-size: 20px;
+        }
+  
+        .right-item {
+          font-size: 10px;
+        }
+
+        ul {
+          li {
+            margin-right: 10px;
+          }
+        }
+
+
       }
     }
   }

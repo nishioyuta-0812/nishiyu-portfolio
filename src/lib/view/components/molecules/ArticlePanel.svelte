@@ -68,22 +68,22 @@ import { base } from '$app/paths';
 
   @media screen and (max-width: 480px) {
     .panel {
-      width: 50%;
+      width: 60%;
       margin: 40px auto;
 
       .thumbnail {
-        height: 300px;
+        height: 150px;
       }
 
       .article-meta {
-        height: 100px;
+        height: 80px;
 
         .title {
-          font-size: 30px;
+          font-size: 15px;
         }
 
         .update-date {
-          font-size: 20px;
+          font-size: 10px;
         }
       }
     }

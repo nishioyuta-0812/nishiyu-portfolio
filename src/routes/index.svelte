@@ -117,4 +117,15 @@
     from { opacity: 0; }
     to { opacity: 1; }
   }
+
+  @media screen and (max-width: 480px) {
+    section {
+      width: 100%;
+      padding: 15px;
+
+      .items {
+        display: block;
+      }
+    }
+  }
 </style>

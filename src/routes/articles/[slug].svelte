@@ -113,20 +113,31 @@
   }
 
   @media screen and (max-width: 480px) {
-    .article-container {
+ 
+    section {
+      width: 100%;
+      padding-top: 0;
+      .article-container {
+      
+        background-color: #fff;
+        width: 90%;
 
-      .article-title {
-        font-size: 40px;
-      }
+        .article-title {
+          font-size: 15px;
+        }
 
-      .update-date {
-        font-size: 20px;
-      }
+        .update-date {
+          font-size: 10px;
+        }
 
-      .markdown-body {
-        font-size: 30px;
+        .markdown-body {
+          font-size: 10px;
+        }
       }
     }
+
+    
+
   }
 
 </style>

@@ -46,6 +46,7 @@
 
   @media screen and (max-width: 480px) {
     section {
+      padding-top: 0px;
       width: 100%;
     }
 

@@ -68,15 +68,15 @@ import { base } from '$app/paths';
 
   @media screen and (max-width: 480px) {
     .panel {
-      width: 60%;
-      margin: 40px auto;
+      width: 80%;
+      margin: 20px auto;
 
       .thumbnail {
         height: 150px;
       }
 
       .article-meta {
-        height: 80px;
+        height: 75px;
 
         .title {
           font-size: 15px;

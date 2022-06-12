@@ -3,15 +3,12 @@
   export let text: string;
 </script>
 
-<p>
+<p class="text-base sm:text-lg text-center mb-7">
   {text}
 </p>
 
 <style lang="scss">
   p {
-    font-size: 18px;
-    text-align: center;
     margin-bottom: 30px;
-    line-height: 30px;
   }
 </style>

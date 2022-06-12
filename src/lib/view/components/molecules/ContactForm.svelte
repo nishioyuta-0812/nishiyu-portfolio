@@ -72,7 +72,7 @@
 
 <!-- svelte-ignore component-name-lowercase -->
 <form class="form" on:submit|preventDefault={handleSubmit}>
-  <div class="flex-box">
+  <div class="flex-box sm:flex block p-2 sm:p-0">
     <div class="left-item">
       <label for="name">
         Name
@@ -112,7 +112,6 @@
     width: 100%;
     
     .flex-box {
-      display: flex;
       justify-content: space-between;
       width: 100%;
       height: 60%;

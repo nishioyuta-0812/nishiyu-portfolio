@@ -30,7 +30,7 @@
   
 </script>
 
-<section>
+<section class="container sm:px-[100px]">
   <SectionTitle text="Blog"></SectionTitle>
   <SectionExplanation text="普段ふと思った時に書いてます良かったら見ていってください"></SectionExplanation>
   <ArticleList articles={articles}></ArticleList>
@@ -41,14 +41,14 @@
     padding-top: 50px;
     height: 70%;
     margin: 0 auto;
-    width: 1100px;
+    // width: 1100px;
   }
 
-  @media screen and (max-width: 480px) {
-    section {
-      padding-top: 0px;
-      width: 100%;
-    }
+  // @media screen and (max-width: 480px) {
+  //   section {
+  //     padding-top: 0px;
+  //     width: 100%;
+  //   }
 
-  }
+  // }
 </style>

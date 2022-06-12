@@ -20,9 +20,8 @@ import { base } from '$app/paths';
 
 <style lang="scss">
   .panel {
-    width: 255px;
     display: block;
-    margin: 0 24px 16px 0;
+    margin-bottom:16px;
     border: 1px solid #a5a4a4;
     box-sizing: border-box;
     position: relative;
@@ -42,7 +41,6 @@ import { base } from '$app/paths';
       background-color: #fff;
       border-top: 1px solid #a5a4a4;
       box-sizing: border-box;
-      height: 78px;
       .title {
         font-weight: bold;
         line-height: 140%;

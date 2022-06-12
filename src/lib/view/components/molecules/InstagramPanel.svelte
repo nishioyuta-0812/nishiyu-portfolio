@@ -3,14 +3,13 @@
   import PanelTitle from "../atoms/PanelTitle.svelte";
 </script>
 
-<div class="instagram-panel">
+<div class="instagram-panel w-full sm:w-[45%]">
   <PanelTitle title={"Instagram"}></PanelTitle>
   <IWidget></IWidget>
 </div>
 
 <style lang="scss">
   .instagram-panel {
-    width: 45%;
     background-color: #fff;
     height: 500px;
     border: 1px solid #a5a4a4;

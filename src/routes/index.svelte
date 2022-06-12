@@ -58,7 +58,7 @@
 </section>
 <section class="sns">
   <SectionTitle text={"SNS"}></SectionTitle>
-  <div class="items">
+  <div class="block sm:flex justify-between space-y-10 sm:space-y-0">
     <InstagramPanel></InstagramPanel>
     <TwitterPanel></TwitterPanel>
   </div>
@@ -76,23 +76,11 @@
     width: 1100px;
     margin-bottom: 100px;
 
-    .items {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      gap: 50px;
-    }
-
   }
 
   .top {
     display: flex;
     height: 600px;
-  }
-
-  .sns {
-    height: 100%;
   }
 
   .btn {
@@ -122,10 +110,6 @@
     section {
       width: 100%;
       padding: 15px;
-
-      .items {
-        display: block;
-      }
     }
   }
 </style>

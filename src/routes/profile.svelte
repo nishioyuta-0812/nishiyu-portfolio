@@ -9,11 +9,11 @@
   title={"Profile"}>
 </MetaTags>
 
-<section>
+<section class="container">
   <SectionTitle text="Profile"></SectionTitle>
   <SectionExplanation text="簡単な自己紹介です、良かったら見ていってください！"></SectionExplanation>
-  <div class="profile">
-    <div class="image">
+  <div class="profile block sm:flex justify-center">
+    <div class="image w-full sm:w-[40%]">
       <img src="yutaicon.jpg" alt="aaa">
     </div>
     <AboutMyself></AboutMyself>
@@ -25,16 +25,10 @@
     padding-top: 50px;
     height: 70%;
     margin: 0 auto;
-    width: 1100px;
   }
 
   .profile {
-    display: flex;
-    justify-content: center;
-
     .image {
-
-      width: 40%;
       img {
         display: block;
         margin: 0 auto;

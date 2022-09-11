@@ -46,7 +46,13 @@
 <div class="top-container">
   <section>
     <div class="top">
+      <div class="miku">
+        <img src="/miku.jpg"  alt="">
+      </div>
       <SelfIntroduction></SelfIntroduction>
+      <div class="yuta">
+        <img src="/yuta.jpg"  alt="">
+      </div>
     </div>
   </section>
 </div>
@@ -68,6 +74,7 @@
 
   .top-container {
     animation: 3s fadeIn;
+    display: flex;
   }
 
   section {

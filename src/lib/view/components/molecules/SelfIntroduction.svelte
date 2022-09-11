@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 1000px;
 
     h1 {
       font-size: 35px;

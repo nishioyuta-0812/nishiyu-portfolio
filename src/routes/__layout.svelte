@@ -17,8 +17,16 @@
   main {
     height: 100%;
     .content {
-      padding-top: 90px;
+      padding-top: 100px;
       margin-bottom: 10%;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    main {
+      .content {
+        padding-top: 64px;
+      }
     }
   }
 </style>

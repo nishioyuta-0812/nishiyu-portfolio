@@ -7,7 +7,9 @@
 
 <style lang="scss">
   footer {
-    height: 90px;
+    background-color: #17184b;
+    color: #fff;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
